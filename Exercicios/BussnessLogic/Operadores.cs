@@ -17,13 +17,13 @@
         #region Multiplicar
         public static double Multiplicar(double primeiroValor, double segundoValor)
         {
-            return primeiroValor - segundoValor;
+            return primeiroValor * segundoValor;
         }
         #endregion
         #region Dividir
         public static double Dividir(double primeiroValor, double segundoValor)
         {
-            return primeiroValor - segundoValor;
+            return primeiroValor / segundoValor;
         }
         #endregion
     }
