@@ -2,7 +2,7 @@ variables:
   SolutionName: 'Exercicios.sln'
 
 build:
-  stages: build
+  stage: build
 
   script:
     - 'dotnet build "%SolutionName%"'
