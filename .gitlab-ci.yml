@@ -1,0 +1,15 @@
+variables:
+  SolutionName: 'Exercicios.sln'
+
+build:
+  stages: build
+
+  script:
+    - 'dotnet build "%SolutionName%"'
+
+tests:
+  stage: test
+
+  script:
+    - 'dotnet test "%SolutionName%"'
+
