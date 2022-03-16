@@ -43,15 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculadora\Operadores.cs" />
-    <Compile Include="Calculadora\ValidarValores.cs" />
-    <Compile Include="Calculadora\Valores.cs" />
-    <Compile Include="Calculadora\Escolhas.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="BussnessLogic\Operadores.cs" />
+    <Compile Include="BussnessLogic\Validacao.cs" />
+    <Compile Include="DataAcess\Valores.cs" />
+    <Compile Include="Interface\InsercaoDados.cs" />
+    <Compile Include="BussnessLogic\RetornosNoConsole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
